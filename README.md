@@ -1,5 +1,18 @@
 ### Hi there 👋
 
+
+* ethereun
+  * ens domain
+  * defi 
+  * nft
+* data analysis
+  * dune analysis
+  * nansen track protocol and wallets
+* Buidl 
+      
+ 
+
+
 <!--
 **libaice/libaice** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
