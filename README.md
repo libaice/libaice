@@ -8,7 +8,7 @@
 * data analysis
   * dune analysis
   * nansen track protocol and wallets
-* Buidl 
+* **Buidl** 
       
  
 
