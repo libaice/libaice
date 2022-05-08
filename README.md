@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-* ethereun
+* ethereum
   * ens domain
   * defi 
   * nft
