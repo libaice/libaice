@@ -1,6 +1,6 @@
 # Hi, I'm Bruce 👋
 
-## Working on Prediction Market Infrastructure
+## Building on Prediction Market Infrastructure
 focused on order lifecycle issues: ghost fills, stale signatures, cancel race conditions, and backtest/prod execution divergence.
 
 ## What I'm shipping
