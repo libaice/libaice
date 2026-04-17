@@ -1,15 +1,44 @@
-<h1 align="center">Hi 👋, I'm Baice</h1>
-<h3 align="center">Smart contract developer</h3>
+# Hi, I'm Bruce 👋
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/iambaice" target="blank">
-  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="iambaice" height="30" width="40" /></a>
-<a href="https://t.me/IAmBaice" target="blank">
-  <img align="center" src="https://download.logo.wine/logo/Telegram_(software)/Telegram_(software)-Logo.wine.png" alt="IAmBaice" height="40" width="60" /></a>
-</p>
+## Working on Prediction Market Infrastructure
+focused on order lifecycle issues: ghost fills, stale signatures, cancel race conditions, and backtest/prod execution divergence.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://images.squarespace-cdn.com/content/v1/584219d403596e3099e0ee9b/1583616589781-HBGW7DNJ9SJQA9FOBSY9/rust.jpg" alt="rust" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## What I'm shipping
+> [GhostGuard](https://github.com/orderbooktrade/ghostguard) 
+
+Real-time ghost fill & stale signature detection for Polymarket market makers 
+
+Verifies every CLOB fill against on-chain OrderFilled events. Webhook-based, language-agnostic.
+
+> [rs-builder-relayer-client](https://github.com/orderbooktrade/rs-builder-relayer-client) 
+
+Rust SDK for Polymarket's Builder Relayer (gasless tx relay, proxy vs EOA redemption paths).
+
+> [OrderbookAgent](https://www.orderbook.trade/) 
+
+AI pricing network for prediction markets (in development 💪).
+
+> [Maker Rebate Reward Tracker](https://polymarket-maker-rebate-tracker.orderbook.trade/) 
+
+Track maker wallet rewards
+
+## Background
+Building on-chain system across EVM, Solana, and Move chains.
+
+Deep work on Polymarket internals: Builder Relayer architecture, CTF V1 → V2 migration, EIP-1271 signature validation, WS subscription field-presence format, feeRateBps / order payload structure, proxy vs EOA redemption.
 
 
+## Stack
+Go · Solidity · Rust · Move · TypeScript
+If you're running a Polymarket MM bot and seeing any of:
+
+> * Cancel requests returning 200 but orders still filling
+> Backtest / production divergence
+> order can't be found — already canceled or matched but size_matched = 0
+> WS cancellation events not arriving
+> Unexplained "mystery fills" eating PnL
+
+I've been tracking engine-side regression across ~15 maker wallets and have p99 latency data + stale-signature event counts. Happy to compare notes.
+Reach out
+
+X/Telegram: [t.me/Iambaice](https://t.me/Iambaice) [x.com/Iambaice](https://x.com/Iambaice)
