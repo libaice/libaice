@@ -6,7 +6,7 @@ focused on order lifecycle issues: ghost fills, stale signatures, cancel race co
 ## What I'm shipping
 > [GhostGuard](https://github.com/orderbooktrade/ghostguard) 
 
-Real-time observability for Polymarketmarket makers 
+Real-time observability for Polymarket market makers 
 
 Verifies every CLOB fill against on-chain OrderFilled events. Webhook-based, language-agnostic.
 
