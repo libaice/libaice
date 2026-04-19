@@ -6,21 +6,18 @@ focused on order lifecycle issues: ghost fills, stale signatures, cancel race co
 ## What I'm shipping
 > [GhostGuard](https://github.com/orderbooktrade/ghostguard) 
 
-Real-time ghost fill & stale signature detection for Polymarket market makers 
+Real-time observability for Polymarketmarket makers 
 
 Verifies every CLOB fill against on-chain OrderFilled events. Webhook-based, language-agnostic.
 
-> [rs-builder-relayer-client](https://github.com/orderbooktrade/rs-builder-relayer-client) 
+## Also maintaining
 
-Rust SDK for Polymarket's Builder Relayer (gasless tx relay, proxy vs EOA redemption paths).
+- rs-builder-relayer-client — Rust SDK for Polymarket Builder Relayer
+- Maker Rebate Reward Tracker — simple reward dashboard
 
-> [OrderbookAgent](https://www.orderbook.trade/) 
+## In exploration
 
-AI pricing network for prediction markets (in development 💪).
-
-> [Maker Rebate Reward Tracker](https://polymarket-maker-rebate-tracker.orderbook.trade/) 
-
-Track maker wallet rewards
+- OrderbookAgent — prediction market AI pricing layer
 
 ## Background
 Building on-chain system across EVM, Solana, and Move chains.
