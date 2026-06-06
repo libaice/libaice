@@ -14,6 +14,14 @@ Recently I have been building AI agent systems that combine RAG evidence, tool c
 * Eval harnesses, tracing, fallback, and run logs
 * Market intelligence, prediction markets, and on-chain risk systems
 
+## Currently looking for
+
+I'm open to AI Agent / FDE roles around:
+
+- Agent Harness / Eval / Observability
+- RAG + Tool Calling systems
+- Financial/Crypto data workflows
+- On-chain risk and automation safety
 
 ## Featured Projects
 
@@ -37,8 +45,8 @@ A curated list of [Forward Deployed Engineering](https://github.com/libaice/Awes
 
 I use this repository to track how AI-native FDE teams are evolving: customer discovery, solution design, agent workflow implementation, RAG, tool calling, eval, observability, deployment, and production readiness.
 
-### Why this matters
-
+## Why this matters
+---
 Most AI agents today handle text. 
 
 My work focuses on agents that operate around markets, signatures, risk, and money — where wrong outputs can create real losses.
