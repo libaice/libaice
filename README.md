@@ -29,6 +29,14 @@ Real-time observability for Polymarket market makers.
 
 Verify CLOB fills against on-chain events and helps detect ghost fills, stale signatures, cancel race conditions, and backtest/production execution divergence.
 
+## Research & Playbooks
+
+### [Awesome-FDE](https://github.com/libaice/Awesome-FDE)
+
+A curated list of [Forward Deployed Engineering](https://github.com/libaice/Awesome-FDE#what-is-a-forward-deployed-engineer) resources, companies, skills, and playbooks.
+
+I use this repository to track how AI-native FDE teams are evolving: customer discovery, solution design, agent workflow implementation, RAG, tool calling, eval, observability, deployment, and production readiness.
+
 ### Why this matters
 
 Most AI agents today handle text. 
