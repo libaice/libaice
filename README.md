@@ -1,41 +1,50 @@
 # Hi, I'm Bruce 👋
 
-## Building on Prediction Market Infrastructure
-focused on order lifecycle issues: ghost fills, stale signatures, cancel race conditions, and backtest/prod execution divergence.
+AI Agent / FDE engineer focused on production-ready agent workflows for high-noise, high-risk data systems.
 
-## What I'm shipping
-> [GhostGuard](https://github.com/orderbooktrade/ghostguard) 
+My background is in trading systems, on-chain data, and crypto infrastructure. 
 
-Real-time observability for Polymarket market makers 
+Recently I have been building AI agent systems that combine RAG evidence, tool calling, structured output, eval harnesses, fallback handling, and observability.
 
-Verifies every CLOB fill against on-chain OrderFilled events. Webhook-based, language-agnostic.
+## Current Focus
 
-## Also maintaining
+* Production-ready AI Agent workflows
+* RAG evidence and source-grounded outputs
+* Tool calling / MCP-style integrations
+* Eval harnesses, tracing, fallback, and run logs
+* Market intelligence, prediction markets, and on-chain risk systems
 
-- rs-builder-relayer-client — Rust SDK for Polymarket Builder Relayer
-- Maker Rebate Reward Tracker — simple reward dashboard
 
-## In exploration
+## Featured Projects
 
-- OrderbookAgent — prediction market AI pricing layer
+### [Prediction Market Intelligence Agent](https://agent.orderbook.trade/)
 
-## Background
-Building on-chain system across EVM, Solana, and Move chains.
+An AI research workflow for prediction markets.
 
-Deep work on Polymarket internals: Builder Relayer architecture, CTF V1 → V2 migration, EIP-1271 signature validation, WS subscription field-presence format, feeRateBps / order payload structure, proxy vs EOA redemption.
+It ingests market metadata, plans search queries, retrieves external sources, extracts YES/NO evidence, and generates structured research memos with citations, uncertainty, fallback reasons, latency, and cost tracking.
 
+### [GhostGuard](https://github.com/OrderBookTrade/GhostGuard)
+
+Real-time observability for Polymarket market makers.
+
+Verify CLOB fills against on-chain events and helps detect ghost fills, stale signatures, cancel race conditions, and backtest/production execution divergence.
+
+### Why this matters
+
+Most AI agents today handle text. 
+
+My work focuses on agents that operate around markets, signatures, risk, and money — where wrong outputs can create real losses.
+
+For these systems, the harness around the agent matters as much as the model itself: 
+* eval cases
+* request tracing
+* tool-call logs
+* fallback reasons
+* human review boundaries.
 
 ## Stack
-Go · Solidity · Rust · Move · TypeScript
-If you're running a Polymarket MM bot and seeing any of:
 
-> * Cancel requests returning 200 but orders still filling
-> Backtest / production divergence
-> order can't be found — already canceled or matched but size_matched = 0
-> WS cancellation events not arriving
-> Unexplained "mystery fills" eating PnL
+Python · FastAPI · LangGraph · RAG · Tool Calling · Structured Output · SSE · PostgreSQL · TypeScript · Next.js · Solidity · Rust · Go
 
-I've been tracking engine-side regression across ~15 maker wallets and have p99 latency data + stale-signature event counts. Happy to compare notes.
-Reach out
 
 X/Telegram: [t.me/Iambaice](https://t.me/Iambaice) [x.com/Iambaice](https://x.com/Iambaice)
